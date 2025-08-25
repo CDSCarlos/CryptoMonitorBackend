@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36414.22 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CryptoMonitor.API", "CryptoMonitorDashboard-backend\CryptoMonitor.API.csproj", "{D38FF592-8FF8-447B-AA9A-CB845FA9F95D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CryptoMonitor.Core", "CryptoMonitor.Core\CryptoMonitor.Core.csproj", "{C9D23C16-E78A-4815-99EE-944951B2A08E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CryptoMonitor.Infrastructure", "CryptoMonitor.Infrastructure\CryptoMonitor.Infrastructure.csproj", "{E598C13B-89A9-4554-9F15-065FBA0347B4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D38FF592-8FF8-447B-AA9A-CB845FA9F95D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D38FF592-8FF8-447B-AA9A-CB845FA9F95D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D38FF592-8FF8-447B-AA9A-CB845FA9F95D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D38FF592-8FF8-447B-AA9A-CB845FA9F95D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9D23C16-E78A-4815-99EE-944951B2A08E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9D23C16-E78A-4815-99EE-944951B2A08E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9D23C16-E78A-4815-99EE-944951B2A08E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9D23C16-E78A-4815-99EE-944951B2A08E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E598C13B-89A9-4554-9F15-065FBA0347B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E598C13B-89A9-4554-9F15-065FBA0347B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E598C13B-89A9-4554-9F15-065FBA0347B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E598C13B-89A9-4554-9F15-065FBA0347B4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {861ED33B-6B0B-4549-AE65-219DFA9150B9}
+	EndGlobalSection
+EndGlobal
